@@ -27,14 +27,14 @@ answer8 = "Blockchain technology has a wide variety of benefits, for both global
 question9 = "What is the blockchain revolution"
 answer9 = "Blockchain is considered a disruptive technology because of its ability to safeguard personal information, reduce intermediaries, unlock digital assets, and potentially open up the global economy to millions more participants. Sometimes called the Trust Machine, blockchain technology is bringing transparency and security to digital networks across countless industries. In many ways, the blockchain revolution can be considered a revolution in trust."
 
-question10 = "What is decentralized finance (DeFi)"
+question10 = "What is decentralized finance"
 answer10 = '''Decentralized finance—often called DeFi or open finance—refers to the economic paradigm shift enabled by decentralized technologies,
  particularly blockchain networks. DeFi signals the shift from a historically centralized and closed financial system 
  toward a universally accessible economy that is based on open protocols that are interoperable, programmable,
-  and composable. From streamlined and secure payment networks to automated loans to USD-pegged stablecoins, 
+  and composable. \n From streamlined and secure payment networks to automated loans to USD-pegged stablecoins, 
   decentralized finance has emerged as one of the most active sectors in the blockchain space. Some of the defining 
   factors of a DeFi application include permissionless architecture (anyone can participate), transparent and auditable code,
-   and interoperability with other DeFi products. DeFi Score offers a single, consistently comparable value for measuring 
+   and interoperability with other DeFi products. \n DeFi Score offers a single, consistently comparable value for measuring 
    DeFi platform risk.'''
 
 question11 = "What is a block in a blockchain"
