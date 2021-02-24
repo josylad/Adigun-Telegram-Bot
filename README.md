@@ -15,6 +15,8 @@ This is an Open-Sourced Telegram Bot that meant to teach anyone the basics of Bl
 
 - Users can use the Bot with no supervision
 
+## Screenshot
+<img src="/adigun_bot.png" width="500">
 
 
 # **SETUP/INSTALLATION.**
@@ -55,7 +57,10 @@ Link:-> ```https://github.com/josylad/```
 
     `python3 pip install -r requirements.txt`
 
-9. On your **bash** terminal Run the command:- 
+9. Create a ```.env file``` which will include:
+    * TOKEN="YOUR BOT TOKEN"
+
+10. On your **bash** terminal Run the command:- 
 
 run: 
 * $ python3 bot.py 
