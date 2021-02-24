@@ -27,7 +27,7 @@ def send_welcome(m):
     user_markup.row(question3, question4)
     user_markup.row(question5, question6)
     cid = m.chat.id
-    line1 = 'Hello, I\'m Adigun 🤖! Press any button below to interact with me. You will love using me to get Blockchain information.'
+    line1 = 'Hello, I\'m Alexandra 🤖! Press any button below to interact with me. You will love using me to get Blockchain information.'
     msg = line1
     bot.send_message(cid, msg, reply_markup=user_markup)
 
