@@ -11,7 +11,7 @@ This is an Open-Sourced Telegram Bot that meant to teach anyone the basics of Bl
 
 - Users can Learn about Blockchain. 
 
-- Users can click on a predetermined questions.
+- Users can select predetermined questions.
 
 - Users can use the Bot with no supervision
 
@@ -35,7 +35,7 @@ To work with Adigun - The Blockchain Tutor Telegram Bot, you need to have some f
 - Terminal
 
 
-### **To work With Adigun - The Blockchain Tutor Telegram Bot **
+### ** To work With Adigun - The Blockchain Tutor Telegram Bot **
 
 1. You will need Internet connection.
 
