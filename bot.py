@@ -27,7 +27,7 @@ def send_welcome(m):
     user_markup.row(question3, question4)
     user_markup.row(question5, question6)
     cid = m.chat.id
-    line1 = 'Hello, I\'m Alexandra 🤖! Press any button below to interact with me. You will love using me to get Blockchain information.'
+    line1 = 'Hello, I\'m Adigun 🤖! Press any button below to interact with me. You will love using me to get Blockchain information.'
     msg = line1
     bot.send_message(cid, msg, reply_markup=user_markup)
 
@@ -53,13 +53,13 @@ def command_help(m):
     bot.send_message(cid, help_text, parse_mode='Markdown')
 
 
-@bot.message_handler(regexp='^What is Blockchain.$')
+@bot.message_handler(regexp='^What is Blockchain$')
 def send_answer(m):
     user_msg = answer1
     bot.reply_to(m, user_msg)
 
 #fixing this regex part was serious work, but it works now!
-@bot.message_handler(regexp='^What is blockchain software\?$')
+@bot.message_handler(regexp='^What is blockchain software$')
 def send_answer(m):
     user_msg = answer2
     bot.reply_to(m, user_msg)
