@@ -45,14 +45,19 @@ def send_welcome(m):
 @bot.message_handler(regexp="menu")
 def main_menu(m):
     user_markup = telebot.types.ReplyKeyboardMarkup(True, True)
-    user_markup.row(question1, question2)
-    user_markup.row(question3, question4)
-    user_markup.row(question5, question6)
-    user_markup.row(question7, question8)
-    user_markup.row(question9, question10)
-    user_markup.row(question11, question12)
+    user_markup.row(question1,question2 )
+    user_markup.row(question3)
+    user_markup.row(question4)
+    user_markup.row(question5)
+    user_markup.row(question6)
+    user_markup.row(question7)
+    user_markup.row(question8)
+    user_markup.row(question9)
+    user_markup.row(question10)
+    user_markup.row(question11)
+    user_markup.row(question12)
     cid = m.chat.id
-    user_msg = 'Welcome to the main menu.\n\n'
+    user_msg = 'Welcome to the main menu.\n please, select an option \n'
     bot.send_message(cid, user_msg, reply_markup=user_markup)
 
 
@@ -60,7 +65,7 @@ def main_menu(m):
 @bot.message_handler(regexp="Help")
 def command_help(m):
     cid = m.chat.id
-    help_text = "Alexandra 🤖: Send my creator *@Josylad* a private message if you need help with anything."
+    help_text = "Adigun 🤖: Send my creator *@Josylad* a private message if you need help with anything."
     bot.send_message(cid, help_text, parse_mode='Markdown')
 
 
@@ -125,6 +130,11 @@ def send_answer(m):
     user_msg = answer12
     bot.reply_to(m, user_msg)
 
+
+@bot.message_handler(regexp='')
+def send_answer(m):
+    user_msg = 'Hi, it seems you have entered an invalid comman, kindly use the menu or reply with "menu"'
+    bot.reply_to(m, user_msg)
 # Upon calling this function, TeleBot starts polling the Telegram servers for new messages.
 # - none_stop: True/False (default False) - Don't stop polling when receiving an error from the Telegram servers
 # - interval: True/False (default False) - The interval between polling requests
