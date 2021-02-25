@@ -3,7 +3,7 @@ Thanks for wanting to contribute to Adigun - The Blockchain Tutor Telegram Bot .
 Please leave a star.
 * You are welcome to contribute Code or Questions with Answers which can help improve the learning experience of the users of Adigun - The Blockchain Tutor Telegram Bot
 
-** To contribute, follow the following guidelines,  **
+**To contribute, follow the following guidelines:**
 
 ### General Open Source Workflow
 1. Fork the project into your Github acccount
