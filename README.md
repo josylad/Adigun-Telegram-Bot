@@ -2,7 +2,7 @@
 
 ### **This project was built using Python 3.8 and [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/)** 
 
-### To contribute, follow the [contributing guidelines]()
+### To contribute, follow the [Contributing Guidelines]()
 
 
 # DESCRIPTION
@@ -18,7 +18,7 @@ This is an Open-Sourced Telegram Bot that meant to teach anyone the basics of Bl
 - Users can use the Bot with no supervision
 
 ## Screenshot
-<img src="/adigun_bot.png" width="500">
+<img src="/adigun_bot.png" width="600">
 
 
 # **SETUP/INSTALLATION.**
@@ -35,6 +35,9 @@ To work with Adigun - The Blockchain Tutor Telegram Bot, you need to have some f
 - Code/text editor
 
 - Terminal
+
+- Knowledge of [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/)
+
 
 
 ### ** To work With Adigun - The Blockchain Tutor Telegram Bot **
@@ -82,8 +85,6 @@ run:
 ---
 
 - Twitter: [@Josylad](https://twitter.com/josylad/)
-
-- Blog: [Joseph on Medium](https://medium.com/@josylad/)
 
 - Github username: Josylad
 
