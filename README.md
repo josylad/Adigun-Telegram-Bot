@@ -2,7 +2,7 @@
 
 ### **This project was built using Python 3.8 and [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/)** 
 
-### To contribute, follow the [Contributing Guidelines]()
+### To contribute, follow the [Contributing Guidelines](/CONTRIBUTING.md)
 
 
 # DESCRIPTION
