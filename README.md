@@ -2,6 +2,8 @@
 
 ### **This project was built using Python 3.8 and [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/)** 
 
+### To contribute, follow the [contributing guidelines]()
+
 
 # DESCRIPTION
 
@@ -43,7 +45,7 @@ To work with Adigun - The Blockchain Tutor Telegram Bot, you need to have some f
 
 3. To get to use **Adigun - The Blockchain Tutor Telegram Bot** first you need to get to the Adigun - The Blockchain Tutor Telegram Bot repository. 
 
-Link:-> ```https://github.com/josylad/```
+Link:-> ```https://github.com/josylad/Adigun-Telegram-Bot```
 
 4. From there you can access Adigun - The Blockchain Tutor Telegram Bot codebase.
 
